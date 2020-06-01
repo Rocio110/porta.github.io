@@ -1,0 +1,269 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0px;
+    font-family: 'Suranna', serif;
+}
+header{
+background-color: #002331;
+padding: 10px 40px ;
+display: flex;
+justify-content: space-between;
+height: 95px;
+
+font-size: 17px;
+}
+
+}
+header div{
+   width:  500px:
+  
+}
+header div h1{
+    margin: 0;
+}
+header nav ul li a{
+    color: wheat;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 25px;
+    
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    margin-top:20px;
+
+    
+}
+header nav ul li{
+    padding: 0 10px;
+
+}
+main{
+}
+
+
+#banner div img{
+    width: 500px;
+    
+}
+.logo img{
+    height: 105px;
+    
+    display: flex;
+    
+}
+#banner{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.title{
+    font-size: 60px;
+    text-align: right;
+    margin: 35px;
+}
+
+.banner_content{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#buy:hover{
+    background-color: deeppink;
+    cursor: pointer;
+}
+
+
+
+#galeria{
+    display: flex;
+    flex-direction: column;
+    padding:  50px 100px;
+}
+.gallery_box{
+    display: flex;
+    margin-bottom: 40px;
+
+} 
+.gallery_img img{
+
+
+height: 200px;
+width: 200px;
+
+border-radius: 50%;
+}
+#descripcion{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ .container{
+    width: 85%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://i.pinimg.com/564x/59/41/c3/5941c30b37c63411962f527b2cb186c4.jpg);
+}
+.container h2{
+    font-size: 40px;
+    text-align: center;
+}
+.container p{
+    font-size: 25px;
+    text-align: center;
+    max-width: 400px;
+}
+.gallery_content{
+    display: flex;
+    margin:  0 40px;
+    flex-direction: column;
+}
+.gallery_content h3{
+    font-size: 25px;
+
+}
+.gallery_content p{
+    font-size: 18px;
+    max-width: 700px;
+
+}
+.gallery_box:nth-child(even){
+    flex-direction: row-reverse;
+}
+#buy{
+    width: 300px;
+    background-color: cadetblue;
+    color: darksalmon;
+    padding: 10px 40px ;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+    margin-top: 50px;
+}
+.container_1{
+    background-image: url(https://i.pinimg.com/564x/55/43/78/554378e57b7aa87bf6ae3747c952c6e5.jpg);
+    padding: 50px;
+    border-radius: 15px;
+
+}
+.container_1 .form_item{
+    display: flex;
+    flex-direction: column;
+}
+.form_item label{
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.form_item input{
+    border: none;
+    border-radius: 6px;
+    padding: 6px 12px ;
+    width: 250px ;
+}
+
+.form_item textarea{
+    border: none;
+    border-radius: 6px;
+    padding: 6px 12px ;
+    width: 250px ;
+}
+
+.container_1 button{
+    width: 130px;
+    background-color: cadetblue;
+    color: darksalmon;
+    padding: 10px 40px ;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+footer{
+background-color: salmon;
+padding: 20px;
+
+}
+
+.redes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-direction: row;
+    width: 150px;
+    gap: 20px;
+    padding-left: 600px;
+}
+.redes img{
+    align-items: center;
+    width: 50px;
+    justify-content: center;
+    gap: 20px;
+}
+.titulo{
+    font-family: 'Sacramento', cursive;
+    
+}
+
+#my-projects {
+    background-color:;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #my-projects-content h2 {
+    text-align: center;
+    font-size: 50px;
+  }
+  
+#my-projects-content {
+    width: 1000px;
+    margin-bottom: 100px;
+  }
+#projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  .project-item {
+    background-color: #E0A194 ;
+    padding: 20px;
+  }
+.project-item img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }  
+  .project-item p {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 18px;
+  }
+  .project-item button {
+  width: 100%;
+  border-radius: 0;
+  border-style: none;
+  background-color: #222222;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+}
